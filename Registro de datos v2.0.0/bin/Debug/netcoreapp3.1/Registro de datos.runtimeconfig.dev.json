@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ODILIS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ODILIS\\.nuget\\packages"
+    ]
+  }
+}
