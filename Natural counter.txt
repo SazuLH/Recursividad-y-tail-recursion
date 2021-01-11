@@ -1,0 +1,25 @@
+using System;
+
+namespace Counter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num;
+            int count = 1;
+            Console.WriteLine("Natural counter");
+            Console.WriteLine("Enter a natural númber");
+            num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Counter:");
+            while (count <= num)
+            {
+                Console.WriteLine(count);
+                count = count + 1;
+
+            }
+            Console.ReadKey();
+
+        }
+    }
+}
